@@ -14,9 +14,3 @@
     --buttonColor: #48a8e3;
   }
 }
-
-@layer components {
-  @apply flexColCenter {
-    display: flex;
-  }
-}
