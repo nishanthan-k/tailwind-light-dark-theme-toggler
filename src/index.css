@@ -5,12 +5,18 @@
 @layer base {
   :root[theme="dark"] {
     --textColor: #ffffff;
-    --bgColor: #000000;
+    --bgColor: #252424;
     --buttonColor: #48a8e3;
   }
   :root[theme="light"] {
     --textColor: #000000;
     --bgColor: #ffffff;
     --buttonColor: #48a8e3;
+  }
+}
+
+@layer components {
+  @apply flexColCenter {
+    display: flex;
   }
 }
